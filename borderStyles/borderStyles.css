@@ -1,0 +1,8 @@
+.borderStyles {
+    /* border-style: solid; */
+    /* border-style: dashed dotted double solid; */
+    /* border-width: 5px; */
+    /* border-width has meduim , thin, thick , and in nums also.. */
+    /* border-radius: 20px; */
+    border : solid thick red
+}

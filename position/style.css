@@ -1,0 +1,50 @@
+.container {
+    text-align: center;
+    
+}
+
+.p1 { 
+    font-weight: bolder;
+    border:2px dotted red;
+    background-color: aqua;
+
+    /* position: relative; */
+    /* position: absolute ; */
+   /* top : 350px; */
+    
+    /* position: sticky ;
+    top:0px; */
+
+    position: fixed;
+    top:0px;
+
+  /* overflow */
+  /* width : 100px;
+  height:  100px; */
+
+  /* overflow: scroll; */
+  /* overflow: hidden; */
+
+  /* overflow: auto; */
+  
+  /* overflow-x: hidden;
+  overflow-y: auto; */
+  
+  /* z-index: 1; */
+}
+img {
+    width: 100px;
+    height : 100px;
+    /* float:left; */
+    /* float:right; */
+
+}
+
+.disp-css {
+    background-color: aquamarine;
+    height: 400px;
+    width: 400px;
+    display: block;
+   /* display: inline; */
+
+}

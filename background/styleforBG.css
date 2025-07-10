@@ -1,0 +1,14 @@
+.trial {
+    /* background-color: red; */
+    color : aquamarine;
+}
+
+body {
+        background-image: url('https://ik.imagekit.io/dogzb6kgb/1.webp?updatedAt=1750682881247');
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-position: right top; */
+        background-attachment: fixed;
+
+    
+}

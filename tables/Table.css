@@ -1,0 +1,33 @@
+
+.ourTable{
+    border:2px dotted red;
+    width: 100%;
+     text-align: center;
+    border-collapse: collapse;
+}
+
+th {
+    color : violet;
+     border : 1px solid darkorchid; 
+      height: 30px;
+      vertical-align: bottom;
+     
+}
+td {
+     border : 1px solid black; 
+      padding: 17px;
+     
+}
+.data {
+    color: blue;
+    height: 30px;
+}
+
+.data:hover {
+    background-color: burlywood;
+}
+
+th:hover{
+        background-color: aqua;
+        color: brown;
+      } 

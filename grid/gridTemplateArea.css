@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    box-sizing: border-box;
+}
+.page-elements {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+
+    grid-template-areas: 
+    'head head head'
+    'nav content sidebar'
+    'footer footer footer'
+    ;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 150px 1fr 150px;
+}
+
+
+
+header,nav,main,aside,footer {
+    background-color: orangered;
+    color: aliceblue;
+    padding: 20px;
+    border : 1px solid greenyellow;
+   border-radius: 10px;
+   
+}
+header {
+    grid-area:head;
+}
+nav {
+    grid-area:nav;
+}
+main {
+    grid-area:content;
+}
+aside {
+    grid-area:sidebar;
+}
+footer {
+    grid-area:footer;
+}
